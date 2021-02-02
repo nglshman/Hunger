@@ -1,0 +1,58 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    
+}
+
+header {
+    display: flex;
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100%;    
+}
+
+nav {
+    width: 100%;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 45%;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;     /* or 150% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: none;
+    width: 133px;
+    height: 100px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.vector {
+    width: 150px;
+    height: 150px;
+    padding-top: 25px;
+
+}
