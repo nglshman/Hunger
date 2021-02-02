@@ -5,20 +5,18 @@
 body, html {
     margin: 0;
     height: 100%;
-    
 }
 
 header {
-    display: flex;
     background-image: url(img/header-bg.png);
-    background-repeat: no-repeat;
-    background-position: top;
     background-size: cover;
     height: 100%;    
+    color: #FFFFFF;
 }
 
 nav {
     width: 100%;
+    height: 200px;
     display: flex;
 }
 
@@ -29,7 +27,6 @@ nav ul {
     width: 45%;
     padding: 0;
     margin: 0;
-
 }
 
 nav ul li {
@@ -41,7 +38,6 @@ nav ul li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
     text-transform: uppercase;
     border: none;
     width: 133px;
@@ -54,5 +50,45 @@ nav ul li {
     width: 150px;
     height: 150px;
     padding-top: 25px;
+}
 
+.main-Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 250px;
+    
+}
+
+.rotate-Text p {
+    transform: rotate(-90deg);
+    font-size: 12px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main p {
+    height: 18.39px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+.main h1 {
+    font-family: 'Happy Monkey', cursive;
+    font-size: 96px;
+    line-height: 0px;
+    text-transform: uppercase;
+}
+.rotate-Icon i {
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    width: 50px;
+    height: 50px;
 }
