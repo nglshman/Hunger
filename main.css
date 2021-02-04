@@ -55,13 +55,14 @@ nav ul li {
 .main-Content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 250px;
     
 }
 
 .rotate-Text p {
-    transform: rotate(-90deg);
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
     font-size: 12px;
 }
 
@@ -69,6 +70,7 @@ nav ul li {
     display: flex;
     align-items: center;
     flex-direction: column;
+    align-content: center;
 }
 
 .main p {
@@ -85,9 +87,12 @@ nav ul li {
     line-height: 0px;
     text-transform: uppercase;
 }
-.rotate-Icon i {
+
+.icon i {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     color: #FFF;
     width: 50px;
     height: 50px;
