@@ -7,8 +7,31 @@ body, html {
     height: 100%;
 }
 
+h2 {
+    font-family: 'Happy Monkey', cursive;
+    font-size: 56px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+hr {
+    width: 60px;
+    height: 5px;
+    background: #E8C300;
+    border: none;
+    border-radius: 50px;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
 header {
-    background-image: url(img/header-bg.png);
+    background-image: url('img/header-bg.png');
     background-size: cover;
     height: 100%;    
     color: #FFFFFF;
@@ -82,11 +105,10 @@ nav ul li {
     width: 100%;
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     border-right: 1px solid rgba(255, 255, 255, 0.2);
-    padding: ;
 }
 
 .main p {
-    height: 18.39px;
+    height: 18px;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.5em;
@@ -101,11 +123,6 @@ nav ul li {
 }
 
 .main hr {
-    width: 60px;
-    height: 5px;
-    background: #E8C300;
-    border: none;
-    border-radius: 50px;
     position: relative;
     z-index: 2;
 }
@@ -195,5 +212,145 @@ nav ul li {
     bottom: 0;
     margin: 0 auto;
     z-index: 1;
-
 }
+
+.about-us {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.about-us-text {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.about-us-text p {
+    width: 75%;
+}
+
+.about-us-img {
+    display: flex;
+    align-self: center;
+    width: 50%;
+}
+
+.about-us-img .main-img {
+    width: 475px;
+    height: 475px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.about-us-img .frame {
+    width: 325px;
+    height: 325px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    left: 67%;
+    top: 127%;
+}
+
+.our-team {
+    background-image: url('img/specialty-bg.png');
+    background-size: cover;
+    height: 100%;    
+    color: #FFFFFF;
+    position: relative;
+}
+
+.our-team-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.our-team-header h2 {
+    font-size: 12px;
+    letter-spacing: 0.5em;
+}
+
+.main-our-team {
+    display: flex;
+    padding: 50px;
+}
+
+.our-team-img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.our-team-img .main-team-img {
+    width: 475px;
+    height: 475px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.our-team-img .frame {
+    width: 325px;
+    height: 325px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 3;
+    left: 3%;
+    top: 29%;
+}
+
+.our-team-text {
+    display: flex;
+    align-self: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.our-team-text p {
+    width: 100%;
+}
+
+.first-vertical-line {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    right: 60%;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.second-vertical-line {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.third-vertical-line {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 60%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+
