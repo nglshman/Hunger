@@ -30,6 +30,24 @@ p {
     text-align: center;
 }
 
+.main-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+    border-radius: 5px; 
+}
+
+.frame {
+    width: 385px;
+    height: 385px;
+    top: 85px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+}
+
 header {
     background-image: url('img/header-bg.png');
     background-size: cover;
@@ -238,22 +256,8 @@ nav ul li {
     width: 50%;
 }
 
-.about-us-img .main-img {
-    width: 475px;
-    height: 475px;
-    border-radius: 5px;
-    position: relative;
-    z-index: 1;
-}
-
 .about-us-img .frame {
-    width: 325px;
-    height: 325px;
-    border-radius: 5px;
-    position: absolute;
-    z-index: 2;
-    left: 67%;
-    top: 127%;
+    left: 325px;
 }
 
 .our-team {
@@ -289,22 +293,13 @@ nav ul li {
     width: 50%;
 }
 
-.our-team-img .main-team-img {
-    width: 475px;
-    height: 475px;
-    border-radius: 5px;
-    position: relative;
+.our-team-img .main-img {
     z-index: 2;
 }
 
 .our-team-img .frame {
-    width: 325px;
-    height: 325px;
-    border-radius: 5px;
-    position: absolute;
     z-index: 3;
-    left: 3%;
-    top: 29%;
+    right: 340px;
 }
 
 .our-team-text {
