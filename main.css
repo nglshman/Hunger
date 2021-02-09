@@ -95,19 +95,19 @@ nav ul li {
     margin: 0 auto;
 }
 
-.main-Content {
+.main-content {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
 }
 
-.rotate-Text {
+.rotate-text-shedule {
     width: 20%;
     display: flex;
     justify-content: center;
 }
-.rotate-Text p {
+.rotate-text-shedule p {
     transform: rotate(180deg);
     writing-mode: vertical-lr;
     font-size: 12px;
@@ -349,3 +349,85 @@ nav ul li {
     z-index: 1;
 }
 
+.book-a-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.book-a-table-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.book-a-table-form hr {
+    margin-bottom: 20px;
+}
+
+.book-a-table-form ul {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.book-a-table-form ul li {
+    list-style-type: none;
+}
+
+.book-a-table-form ul li input {
+    height: 60px;
+    width: 277px;
+    margin: 5px;
+    background: #E5E5E5;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 0 20px;
+    color: rgba(51, 51, 51, 0.5);
+    outline: none;
+}
+
+.book-a-table-form ul li input::-webkit-input-placeholder {
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.book-a-table-form .book-now-button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.book-a-table-form .book-now-button button {
+    width: 643px;
+    height: 60px;
+    border-radius: 5px;
+    background: #E8C300;
+    margin: 5px;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.book-a-table-img {
+    display: flex;
+    width: 50%;
+}
+.book-a-table-img .frame {
+    left: 320px;
+}
+
+.text-shedule {
+    display: flex;
+}
+
+.text-shedule p {
+    color: rgba(51, 51, 51, 0.5);
+}
