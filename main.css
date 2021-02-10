@@ -48,6 +48,42 @@ p {
     z-index: 2;
 }
 
+.first-vertical-line {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    right: 60%;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.second-vertical-line {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.third-vertical-line {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 60%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+
 header {
     background-image: url('img/header-bg.png');
     background-size: cover;
@@ -313,42 +349,6 @@ nav ul li {
     width: 100%;
 }
 
-.first-vertical-line {
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
-    position: absolute;
-    width: 0;
-    height: 100%;
-    left: 0;
-    right: 60%;
-    bottom: 0;
-    margin: 0 auto;
-    z-index: 1;
-}
-
-.second-vertical-line {
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
-    position: absolute;
-    width: 0;
-    height: 100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0 auto;
-    z-index: 1;
-}
-
-.third-vertical-line {
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
-    position: absolute;
-    width: 0;
-    height: 100%;
-    left: 60%;
-    right: 0;
-    bottom: 0;
-    margin: 0 auto;
-    z-index: 1;
-}
-
 .book-a-table {
     display: flex;
     justify-content: center;
@@ -431,3 +431,57 @@ nav ul li {
 .text-shedule p {
     color: rgba(51, 51, 51, 0.5);
 }
+
+.specialties {
+    background-image: url('img/specialtys-bg.png');
+    background-size: cover;
+    height: 100%;    
+    color: #FFFFFF;
+    position: relative;
+}
+
+.specialties-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.specialties-header h2 {
+    font-size: 12px;
+    letter-spacing: 0.5em;
+}
+
+.main-specialties {
+    display: flex;
+    padding: 50px;
+}
+
+.specialties-img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.specialties-img .main-img {
+    z-index: 2;
+}
+
+.specialties-img .main-img .frame {
+    z-index: 3;
+    right: 340px;
+}
+
+.specialties-text {
+    display: flex;
+    align-self: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.specialties-text p {
+    width: 100%;
+}
+
