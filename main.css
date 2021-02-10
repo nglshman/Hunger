@@ -535,6 +535,7 @@ nav ul li {
 .delicious-menu-price {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 
 .delicious-menu-price ul li {
@@ -551,5 +552,110 @@ nav ul li {
     text-align: left;
 }
 
+.private-events {
+    background-image: url('img/specialtys.png');
+    background-size: cover;
+    height: 100%;    
+    color: #FFFFFF;
+    position: relative;
+}
 
+.private-events {
+    display: flex;
+    flex-direction: column;
+}
 
+.private-events-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.private-events-header h2 {
+    font-size: 12px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
+.private-events-weeding {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.private-events-weeding .main-img .main-img-tab {
+    display: flex;
+    
+}
+
+.private-events-weeding p {
+    font-family: 'Happy Monkey', cursive;
+    background: #000;
+    font-size: 24px;
+    writing-mode: vertical-lr;
+    margin: 50px -72px;
+    height: 63%;
+    padding: 0 25px;
+    text-align: left;
+    text-transform: uppercase;
+    border-radius: 0px 5px 5px 0px;
+    text-indent: 20px;
+}
+
+.private-events-weeding .frame {
+    right: 275px;
+}
+
+.private-events-corporate {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.private-events-corporate .main-img .main-img-tab {
+    display: flex;
+}
+
+.private-events-corporate p {
+    font-family: 'Happy Monkey', cursive;
+    transform: rotate(180deg);
+    background: #000;
+    font-size: 24px;
+    writing-mode: vertical-lr;
+    margin: 50px -72px;
+    height: 63%;
+    padding: 0 25px;
+    text-align: left;
+    text-transform: uppercase;
+    border-radius: 0px 5px 5px 0px;
+    text-indent: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.private-events-corporate .frame {
+    left: 255px;
+}
+
+.private-events .text-shedule {
+    display: flex;
+    justify-content: center;
+}
+
+.private-events .text-shedule p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.multiple-img {
+    display: flex;
+}
+
+.multiple-img img {
+    width: 100%;
+}
