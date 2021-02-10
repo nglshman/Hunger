@@ -485,3 +485,71 @@ nav ul li {
     width: 100%;
 }
 
+.delicious-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 100px;
+
+}
+
+.delicious-menu-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.delicious-menu-header h2 {
+    text-transform: uppercase;
+}
+
+.delicious-menu-header h3 {
+    display: flex;
+    align-self: center;
+    width: 50%;
+}
+
+.delicious-menu-nav {
+    display: flex;
+    align-self: center;
+    margin-top: 25px;
+}
+
+.delicious-menu-nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.delicious-menu-nav ul li {
+    list-style-type: none;
+    padding: 25px 50px;
+    text-transform: uppercase;
+    border-right: 1px solid rgba(51, 51, 51, 0.2);
+    cursor: pointer;
+}
+
+.delicious-menu-nav ul li:last-of-type {
+    border: none;
+}
+
+.delicious-menu-price {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.delicious-menu-price ul li {
+    list-style-type: none;
+    width: 363px;
+    font-family: 'Happy Monkey', cursive;
+    padding: 12px 0;
+}
+
+.delicious-menu-price ul li p {
+    font-size: 10px;
+    color: rgba(51, 51, 51, 0.5);
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+
