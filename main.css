@@ -173,7 +173,7 @@ nav ul li {
 .main h1 {
     font-family: 'Happy Monkey', cursive;
     font-size: 96px;
-    line-height: 0px;
+    line-height: 15px;
     text-transform: uppercase;
 }
 
@@ -198,7 +198,7 @@ nav ul li {
     text-transform: uppercase;
 }
 
-.main .buttons .yellow {
+.main .buttons button:hover {
     background-color: #E8C300;
 }
 
@@ -231,7 +231,7 @@ nav ul li {
     height: 55%;
     left: 0;
     right: 0;
-    bottom: 118px;
+    bottom: 81px;
     margin: 0 auto;
     z-index: 1;
 }
@@ -240,7 +240,7 @@ nav ul li {
     right: 0;
     left: 0;
     position: absolute;
-    bottom: 47px;
+    bottom: 10px;
     margin: 0 auto;
     width: 0;
 }
@@ -249,7 +249,6 @@ nav ul li {
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     padding: 10px;
-    z-index: 1;
     margin: 0 -36px;
 }
 
@@ -269,7 +268,7 @@ nav ul li {
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     position: absolute;
     width: 0;
-    height: 47px;
+    height: 10px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -765,4 +764,83 @@ nav ul li {
 .footer address {
     color: rgba(255, 255, 255, 0.5);
     font-size: 12px;
+}
+
+@media (max-width: 1230px) {
+
+    nav ul {
+        width: 50%;
+    }
+
+    .vector {
+        display: none;
+    }
+
+    .main h1 {
+        font-size: 80px;
+    }
+
+    .vertical-line-top {
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 960px) {
+    h2 {
+        font-size: 28px;
+    }
+
+    .main h1 {
+        font-size: 58px;
+    }  
+}
+
+@media (max-width: 650px) {
+
+    .first-vertical-line {
+        display: none;
+    }
+
+    .second-vertical-line {
+        display: none;
+    }
+
+    .third-vertical-line {
+        display: none;
+    }
+    
+    .main-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        border-left: none;
+        border-right: none;
+    }
+    
+    .rotate-text-shedule p {
+        transform: initial;
+        writing-mode: inherit;
+    }
+
+    .icon {
+    width: 50%;
+    flex-direction: row;
+    margin-bottom: 175px;
+    justify-content: space-around;
+    }
+
+    .vertical-line-top {
+        display: none;
+    }
+
+    .main-content-button-bottom {
+        display: none;
+    }
+
+    .vertical-line-bottom {
+        display: none;
+    }
 }
