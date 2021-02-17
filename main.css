@@ -910,6 +910,9 @@ nav ul li {
 }
 
 @media (max-width: 960px) {
+    .frame {
+        display: none;
+    }
     h2 {
         font-size: 35px;
     }
