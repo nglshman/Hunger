@@ -629,7 +629,7 @@ nav ul li {
     font-size: 24px;
     writing-mode: vertical-lr;
     margin: 50px -72px;
-    height: 63%;
+    height: 64%;
     padding: 0 25px;
     text-align: left;
     text-transform: uppercase;
@@ -658,7 +658,7 @@ nav ul li {
     font-size: 24px;
     writing-mode: vertical-lr;
     margin: 50px -72px;
-    height: 63%;
+    height: 64%;
     padding: 0 25px;
     text-align: left;
     text-transform: uppercase;
@@ -723,13 +723,15 @@ nav ul li {
 }
 
 .contact-form input {
-    width: 1280px;
+    max-width: 1320px;
+    width: 100%;
     height: 120px;
     background: #E5E5E5;
     border: none;
     border-radius: 5px;
     font-size: 14px;
     padding: 0 40px;
+    margin-left: 35px;
     color: rgba(51, 51, 51, 0.5);
     outline: none;
 }
@@ -746,9 +748,18 @@ nav ul li {
 }
 
 .contact-address-info p {
-    padding: 0 25px;
-    font-size: 14px;
+    font-size: 12px;
+    padding-left: 15px;
     color: rgba(51, 51, 51, 0.5);
+}
+
+.contact-address-info p:nth-child(1) {
+    margin-left: 100px;
+}
+
+.contact-address-info p i {
+    color: #E8C300;
+    padding: 0 10px;
 }
 
 .contact-send-request {
@@ -756,7 +767,8 @@ nav ul li {
 }
 
 .contact-send-request button {
-    width: 640px;
+    max-width: 698px;
+    width: 100%;
     height: 60px;
     background-color: #E8C300;
     border-radius: 5px;
@@ -769,7 +781,8 @@ nav ul li {
 .bg-map {
     background-image: url('img/mapsdirection.png');
     background-size: cover;
-    height: 100%;
+    width: 100%;
+    height: 50%;
 }
 
 .footer {
@@ -780,9 +793,9 @@ nav ul li {
     background: rgba(0, 0, 0, 0.9);
 }
 
-.footer address {
+.footer p {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 @media (max-width: 1280px) {
@@ -815,11 +828,56 @@ nav ul li {
     .eclipse i {
         margin-top: 100px;
     }
+    .private-events-weeding {
+        justify-content: flex-end;
+    }
+    .private-events-corporate {
+        justify-content: flex-end;
+    }
     .private-events-weeding .main-img .main-img-tab {
         height: 80%;
     }
+    .private-events-weeding .frame {
+        right: 330px;
+        height: 60%;
+        top: 100px;
+    }
+    .private-events-weeding p {
+        font-size: 20px;
+        margin: 39px -72px;
+        height: 40%;
+        padding: 98px 25px;
+        text-indent: -65px;
+    }
     .private-events-corporate .main-img .main-img-tab {
         height: 80%;
+    }
+    .private-events-corporate .frame {
+        left: 145px;
+        height: 60%;
+        top: 100px;
+    }
+    .private-events-corporate p {
+        font-size: 20px;
+        margin: 40px -72px;
+        height: 37%;
+        padding: 105px 25px;
+        text-indent: -75px;
+    }
+}
+
+@media (max-width: 1460px) {
+    .multiple-img {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .multiple-img img {
+        width: 360px;
+        padding: 15px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
     }
 }
 
